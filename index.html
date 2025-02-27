@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Advanced JS Seminar03</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="homework.js" defer></script>
+    </head>
+    <body>
+        <h1>Каталог продуктов</h1>
+
+        <div class="goods" id="goods">
+            <!-- Макетирование продукта -->
+            <!-- <div class="product" id="product0">
+                <details>
+				<summary>
+					<h2 class='product__head'>${element.product + " "}<span>Комментариев${" " + element.reviews.length}</span></h2>
+                </summary>`;
+                    <div class="product__commentary" id="commentary1">
+                        Отличный телефон! Батарея держится долго.
+                        <button class="product__button">Удалить</button>
+                    </div>
+                    <div class="product__commentary" id="commentary2">
+                        Камера супер, фото выглядят просто потрясающе.
+                        <button class="product__button">Удалить</button>
+                    </div>
+                </details>
+                <button class='product__button add' data-index=${index} data-type='add'>
+                Ваш комментарий
+            </button>
+            </div> -->
+        </div>
+        <h3>Создать отзыв</h3>
+        <form id="formBox" action="/apply/" method="POST">
+            <label>
+                Название продукта:
+                <input
+                    type="text"
+                    class="form"
+                    placeholder="Название продукта"
+                    name="product"
+                    id="formProduct"
+                    required
+                />
+            </label>
+            <label>
+                Ваш комментарий:
+                <input
+                    type="text"
+                    class="form"
+                    placeholder="Ваш комментарий"
+                    name="commentary"
+                    id="formCommentary"
+                    required
+                />
+            </label>
+            <button type="submit">Отправить комментарий</button>
+        </form>
+
+        <!-- добавления отзыва -->
+
+        <!-- <form class="block form" id="review-form">
+            <h2>Добавить отзыв</h2>
+            <div class="input">
+                <input
+                    type="text"
+                    placeholder="Название продукта"
+                    class="input__text"
+                    id="product-name"
+                    required
+                />
+                <textarea
+                    placeholder="Отзыв"
+                    class="input__text"
+                    id="review-text"
+                    rows="2"
+                    required
+                ></textarea>
+                <button class="form__submit-btn" type="submit">
+                    Добавить отзыв
+                </button>
+            </div>
+        </form> -->
+
+        <!-- просмотр отзывов -->
+        <!-- <h2>Просмотр отзывов</h2>
+        <section id="product-list">
+            <summary class="review"></summary>
+        </section> -->
+    </body>
+</html>

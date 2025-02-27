@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "PT Sans", "Arial", sans-serif;
+	background: #a4bacc99;
+	color: #226daa;
+	font-family: Raleway, sans-serif;
+	margin: 1rem;
+}
+
+span {
+	font-size: 10px;
+}
+
+.product {
+	border: 1px solid #226daa;
+	padding: 5px;
+	margin-bottom: 1vw;
+	border-radius: .5vw;
+}
+
+.product__commentary {
+	border: 5px solid white;
+	margin: 5px 0;
+	display: flex;
+	justify-content: space-between;
+	border-radius: .5vw;
+}
+
+details>summary {
+	padding: 5px;
+	background-color: #eee;
+
+	border: 1px #ccc solid;
+	cursor: pointer;
+	list-style-type: none;
+}
+
+details>div {
+	border: 1px #ccc solid;
+	padding: 10px;
+}
+
+details[open]>summary {
+	color: #eee;
+	background-color: gray;
+}
